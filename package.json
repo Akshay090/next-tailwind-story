@@ -10,15 +10,19 @@
     "build-storybook": "build-storybook"
   },
   "dependencies": {
+    "autoprefixer": "^10.0.3",
     "next": "latest",
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0"
+    "postcss": "^8.1.10",
+    "postcss-preset-env": "^6.7.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "tailwindcss": "^2.0.1"
   },
   "license": "MIT",
   "devDependencies": {
-    "@storybook/addon-essentials": "6.0.26",
-    "@storybook/addon-links": "6.0.26",
-    "@storybook/react": "6.0.26",
+    "@storybook/addon-essentials": "6.1.8",
+    "@storybook/addon-links": "6.1.8",
+    "@storybook/react": "6.1.8",
     "babel-loader": "^8.0.5"
   }
 }
